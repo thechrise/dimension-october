@@ -1,4 +1,4 @@
-## Forty Theme
+## Dimension Theme
 - a clean, responsive portfolio theme for [October CMS](https://octobercms.com).
 
 #### Demo
