@@ -18,5 +18,5 @@
 
 #### Credits
 - [Unsplash](https://unsplash.com/) for demo images
-- [HTML5 Up](https://html5up.net/forty) for the Theme
+- [HTML5 Up](https://html5up.net/dimension) for the Theme
 - OctoberCMS for the great CMS they made! <3
