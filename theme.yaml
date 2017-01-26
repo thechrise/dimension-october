@@ -1,0 +1,8 @@
+name: 'Dimension'
+description: 'Dimension Theme from HTML5UP'
+author: 'Chris Evans'
+homepage: 'https://dimension.summixdesign.com'
+code: Dimension
+form: fields.yaml
+require:
+    - devinx.contactus

@@ -1,0 +1,36 @@
+tabs:
+  fields:
+
+    ####################################################
+    # Tab: Info
+    ####################################################
+
+    site_name:
+      tab: Info
+      label: Website Name
+      type: text
+
+    site_author:
+      tab: Info
+      label: Author
+      type: text
+      default: Chris Evans
+
+    description:
+      tab: Info
+      label: Description
+      type: textarea
+      default: "Modern and Clean OctoberCMS Theme"
+
+    keywords:
+      tab: Info
+      label: Keywords
+      type: taglist
+      separator: comma
+      default: october,octobercms,themes,templates,free octobercms themes
+      options:
+        - october
+        - octobercms
+        - themes
+        - templates
+        - free octobercms themes
