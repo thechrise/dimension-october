@@ -9,6 +9,7 @@ tabs:
       tab: Info
       label: Website Name
       type: text
+      default: Dimension by HTML5Up
 
     site_author:
       tab: Info
