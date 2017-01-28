@@ -1,15 +1,18 @@
+[viewBag]
 ==
-		<title>{{ this.theme.site_name }}</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
-        <meta name="keywords" content="{{ this.theme.keywords }}">
-        <meta name="author" content="{{ this.theme.site_author }}">
-        <link rel="canonical" href="{{ this.page.id|page }}" />
-        <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}" />
-        <link href="{{ ['assets/css/main.css',
-                        'assets/css/font-awesome.min.css',
-                        'assets/css/noscript.css',
-                        '@framework.extras']|theme }}" rel="stylesheet">
-        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-            {% styles %}
+<title>{{ this.theme.site_name }}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="description" content="{{ this.page.meta_description|default(this.theme.description) }}">
+<meta name="keywords" content="{{ this.theme.keywords }}">
+<meta name="author" content="{{ this.theme.site_author }}">
+<link rel="canonical" href="{{ this.page.id|page }}" />
+<link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}" />
+<link href="{{ ['assets/css/main.css',
+                'assets/css/font-awesome.min.css',
+                'assets/css/noscript.css',
+                '@framework.extras']|theme }}" rel="stylesheet">
+                
+<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+{% styles %}
